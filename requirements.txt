@@ -1,0 +1,14 @@
+# Core model/runtime
+torch==2.3.0         # CPU build; pick a CUDA build instead if you have an NVIDIA GPU
+torchvision==0.18.0
+torchaudio==2.3.0    # not used by the script but pinned to match torch
+
+# Model downloading / preprocessing
+transformers==4.41.2
+pillow>=10.0.0       # provides the PIL module
+
+# Image I/O & drawing
+opencv-python>=4.10
+
+# Optional: speed up HF downloads behind some proxies
+# huggingface_hub>=0.22
