@@ -1,0 +1,26 @@
+This is the README file 
+
+1. Change to the working directory
+
+         cd Basic-Agri-Detection-main
+
+2. Create a isolated Python Environment
+
+         python -m venv venv
+
+3. Activate that virtual environment. 
+
+        .\venv\Scripts\activate
+
+    Your prompt changes to (venv) to show it’s active.
+
+4. Read requirements.txt and install every listed package 
+
+        pip install -r requirements.txt
+
+5. Run the script on img1.jpg.
+
+        python infer_image2.py img1.jpeg
+
+     It prints the result and writes annotated_leaf.jpg in the same folder.
+
